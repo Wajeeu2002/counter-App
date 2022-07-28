@@ -1,0 +1,44 @@
+*{
+  margin: 0
+  padding:0
+}
+h1{
+  margin: 2px;
+  font-size: 4;
+  font-weight:bold;
+}
+.container{
+  box-sizing: border-box;
+  width:20em;
+  height:20em;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: solid 2px red;
+}
+
+.btn{
+  background-color: darkred;
+  margin: 5px;
+   width:200px;
+   padding: 4px;
+     font-weight:bold;
+     border-radius: 5px;
+     color: #fff;
+}
+
+.item{
+background-color: darkgreen;
+width:200px;
+padding: 4px;
+margin: 5px;
+font-weight:bold;
+border-radius: 5px;
+color: #fff;
+}
+p{
+
+  font-weight:bold;
+}
